@@ -14,11 +14,8 @@ def line (arr)
 end
 
 def take_a_number(arr, str)
-  if arr.size > 0  
     puts "#{str}. You are number #{arr.size+1} in line."
-  else
-    puts "There is nobody in the line."
-  end
+
 end
 
 def now_serving(arr)
