@@ -16,7 +16,7 @@ end
 def take_a_number(arr, str)
     if !arr.include?(str)
       arr.push(str)
-      index= arr.size+1
+      index= arr.size
     else
       index = arr.index(str)
     end
