@@ -4,7 +4,7 @@ def line (arr)
     string =  "The line is currently:"
     counter = 1
     arr.each {|e| 
-    string = string +" "+counter+"."+" #{e}"
+    string = string +" "+str(counter)+"."+" #{e}"
     counter+=1
     }
     puts string
