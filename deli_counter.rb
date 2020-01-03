@@ -14,8 +14,13 @@ def line (arr)
 end
 
 def take_a_number(arr, str)
-    arr.push(str)
-    puts "Welcome, #{str}. You are number #{arr.size+1} in line."
+    if !arr.include?(str)
+      arr.push(str)
+      index= arr.size+1
+    else
+      index = arr.index(str)
+    end
+    puts "Welcome, #{str}. You are number #{index} in line."
     
 end
 
